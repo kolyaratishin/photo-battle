@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: battles
+  cloud:
+    config:
+      uri: http://localhost:8888

@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///C:\D_disk\Photo battle\photo-battle\backend\config-service\src\main\resources\config
